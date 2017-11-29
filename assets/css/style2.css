@@ -212,14 +212,12 @@ p {
 		left: 110px;
 		width: 410px;
 	}
-	#messageBox {
-		width: 400px;
-	}
 	.sideBar {
 		position: relative;
 		left: 80px;
 		padding-bottom: 100px;
 	}
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -257,10 +255,14 @@ p {
 	}
 	.sideBar {
 		position: relative;
-		top: 500px;
+		top: 900px;
 		float: left;
 		left: 10px;
 		padding-bottom: 100px;
+	}
+	.portfolioImg {
+		left: 120px;
+		width: 300px;
 	}
 }
 
@@ -301,10 +303,13 @@ p {
 	}
 	.sideBar {
 		position: relative;
-		top: 500px;
+		top: 1150px;
 		float: left;
 		left: 10px;
 		padding-bottom: 100px;
-
+	}
+	.portfolioImg {
+		left: 180px;
+		width: 300px;
 	}
 }
