@@ -1,0 +1,199 @@
+body {
+	/*background image not working
+	background-image: url("../Basic-Portfolio/assets/images/backgroundPattern.png");
+	background-attachment: fixed;
+	width: 100%
+	height: 100%*/
+	background-color: grey;
+}
+
+.header {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	height: 57px;
+	width:100%;
+	z-index: 2;
+}
+
+.yourName {
+	position: fixed;
+	left: 162px;
+	padding-top: 8px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 9px;
+	background-color: #6BDBCF;
+	font-family: Century Gothic;
+	font-style: bold;
+	font-size: 40px;
+	color: white;
+	z-index: 3;
+}
+
+.tab {
+	position: fixed;
+	top: 25px;
+	font-family: Century Gothic;
+	font-size: 12px;
+	color: grey;
+
+}
+
+.aboutTab{
+	left: 858px;
+}
+
+.portfolioTab{
+	left: 918px;
+}
+
+.contactTab{
+	left: 988px;
+}
+
+.contentArea {
+	padding-top: 65px;
+	margin-bottom: 85%;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+h2 {
+	font-family: Century Gothic;
+	color: white;
+	font-size: 30px;
+}
+
+h3 {
+	font-family: Century Gothic;
+	color: white;
+	font-size: 24px;
+}
+
+p {
+	font-family: Optima;
+	color: white;
+	font-size: 14px;
+}
+
+.mainSection {
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 590px;
+	left: 162px;
+	position: absolute;
+	background-color: #6BDBCF;
+	line-height: 2;
+	color: white;
+}
+
+#profilePic {
+	float: left;
+	padding-right:20px;
+}
+
+.sideBar {
+	float: right;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	left: 852px;
+	width: 210px;
+	position: absolute;
+	background-color: #6BDBCF;
+}
+
+.icon {
+	width: 60px;
+	height: 60px;
+	padding-right: 5px;
+}
+
+#messageBox {
+	height: 100px;
+	width: 500px;
+}
+
+#submitButton {
+	width: 100px;
+	height: 40px;
+	background-color: white;
+	color: #6BDBCF;
+}
+
+.portfolioImg {
+	position: relative;
+	float: left;
+	width: 260px;
+	height: 200px;
+	top: 20px;
+	left: 70px;
+
+}
+
+.portfolioLabel {
+	position: absolute;
+	color: #6BDBCF;
+	font-family: Optima;
+	font-size: 12px;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 10px;
+	width: 160px;
+	height: 20px;
+	background-color: white;
+	top: 100px;
+}
+
+.footerBackground {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	width: 100%;
+	height: 45px;
+}
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+	background-color: #6BDBCF;
+	font-size: 10px;
+
+}
+
+@media screen and (max-width: 980px) and (min-width: 768) {
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 640) {
+
+}
+
+@media screen and (max-width: 640px) {
+	.header {
+		position: static;
+	}
+	.yourName {
+		position: static;
+	}
+	.tab {
+		position: static;
+	}
+}
